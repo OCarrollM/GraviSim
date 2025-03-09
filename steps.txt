@@ -1,0 +1,32 @@
+1: Basic window and rendering loop
+
+use pygame
+make static star
+click to place planets
+
+2: gravity calculations
+
+f = (g * m1 * m2) / r^2
+f = grav force
+g = grav constant
+m1, m2 = mass
+r = distance
+
+create object class to store above (data class?)
+calc grav force
+update velocities using euler integration
+
+3: interactivity 
+
+user to throw planets or something
+
+click to place planet
+click and drag to set a velocity (slingshot)?
+
+4: realism 
+
+planets move realisticly based on size and grav
+
+update pos each frame based on velocity
+constant grav force
+
